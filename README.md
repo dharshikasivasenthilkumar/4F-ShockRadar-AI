@@ -95,14 +95,21 @@ No OpenAI API key is required.
 
 ## Interactive Dashboard
 
-The Streamlit dashboard includes:
+The Streamlit dashboard provides an interactive interface for monitoring commodity price movements and machine learning risk predictions.
 
-- Commodity risk overview
-- Historical price trend charts
-- Monthly percentage change visualisations
-- Machine learning risk predictions
-- Model probability comparisons
-- AI-generated business risk reports
+### 1. Overview
+![Dashboard Overview](images/risk_overview.png)
+
+### 2. Price Trends
+![Commodity Price Trends](images/historical_price_analysis.png)
+(images/monthly_percentage_change.png)
+
+### 3. ML Risk Predictions
+![Machine Learning Predictions](images/ML_Risk_predictions.png)
+(images/Prob_next_month_shock.png)
+
+### 4. AI Business Report
+![AI Business Report](images/AI_Business_risk_Report.png)
 
 ## Project Structure
 
