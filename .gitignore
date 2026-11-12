@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Temporary files
+~$*
+*.log
+.DS_Store
+
+# Raw source data
+data/raw/
+
+# Streamlit
+.streamlit/secrets.toml
