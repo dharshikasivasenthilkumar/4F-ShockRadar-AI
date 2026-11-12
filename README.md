@@ -113,6 +113,33 @@ The Streamlit dashboard provides an interactive interface for monitoring commodi
 
 ## Project Structure
 
+## System Architecture
+
+The following diagram illustrates the end-to-end workflow of 4F ShockRadar AI.
+
+```mermaid
+flowchart TD
+    A["World Bank Commodity Price Data<br/>Excel Workbooks"] --> B["Python Data Cleaning<br/>Pandas and NumPy"]
+    B --> C["MySQL Database<br/>Commodity Price Tables"]
+    C --> D["SQL Analysis<br/>Views and LAG Functions"]
+    D --> E["Processed CSV Datasets"]
+    E --> F["Exploratory Data Analysis<br/>Historical Trends and Spikes"]
+    E --> G["Feature Engineering<br/>Monthly Price Changes"]
+
+    G --> H["Logistic Regression"]
+    G --> I["Random Forest"]
+
+    H --> J["Risk Probabilities"]
+    I --> J
+
+    J --> K["Python Risk Classification<br/>Verified Model Warnings"]
+    K --> L["Ollama - Llama 3.2 1B<br/>Business Report Generation"]
+
+    F --> M["Streamlit Dashboard"]
+    J --> M
+    L --> M
+```
+
 ```text
 4F Shock radar/
 │
