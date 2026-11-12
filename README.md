@@ -102,11 +102,11 @@ The Streamlit dashboard provides an interactive interface for monitoring commodi
 
 ### 2. Price Trends
 ![Commodity Price Trends](images/historical_price_analysis.png)
-(images/monthly_percentage_change.png)
+![Commodity Price Trends](images/monthly_percentage_change.png)
 
 ### 3. ML Risk Predictions
 ![Machine Learning Predictions](images/ML_Risk_predictions.png)
-(images/Prob_next_month_shock.png)
+![Machine Learning Predictions](images/Prob_next_month_shock.png)
 
 ### 4. AI Business Report
 ![AI Business Report](images/AI_Business_risk_Report.png)
